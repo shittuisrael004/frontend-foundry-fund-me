@@ -1,8 +1,8 @@
-# html-fund-me-f23
+# Foundry Fund Me Front-End
 
-*[⭐️ (2:37:02) | Lesson 8: HTML Fund Me](https://www.youtube.com/watch?v=sas02qSFZ74&t=9422s)*
+*[⭐️ From (2:37:02) | Lesson 8: HTML Fund Me | By Patrick Collins](https://www.youtube.com/watch?v=sas02qSFZ74&t=9422s)*
 
-This is a minimalistic example what you can find in the [metamask docs](https://docs.metamask.io/guide/create-dapp.html#basic-action-part-1).
+This is a minimalistic example of what you can find in the [metamask docs](https://docs.metamask.io/guide/create-dapp.html#basic-action-part-1).
 
 # Requirements
 
@@ -11,12 +11,8 @@ This is a minimalistic example what you can find in the [metamask docs](https://
     - `git --version`
 - [Metamask](https://metamask.io/)
   - This is a browser extension that lets you interact with the blockchain.
-
-### Optional Gitpod
-
-If you can't or don't want to run and install locally, you can work with this repo in Gitpod. If you do this, you can skip the `clone this repo` part.
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#github.com/PatrickAlphaC/html-fund-me-f23)
+- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) (Optional)
+  - This is a VSCode extension that lets you launch a development local Server with live reload feature for static & dynamic pages
 
 # Quickstart
 
@@ -43,7 +39,7 @@ If you want to execute a transaction follow this:
 
 Make sure you have the following installed:
 
-1. You'll need to open up a second terminal and run:
+1. You'll need to open up a second terminal on VSCode and run:
 
 ```
 git clone https://github.com/Cyfrin/foundry-fund-me-f23
@@ -68,15 +64,15 @@ In your `constants.js` file, update the variable `contractAddress` with the addr
 > **PLEASE USE A METAMASK ACCOUNT THAT ISNT ASSOCIATED WITH ANY REAL MONEY.**
 > I usually use a few different browser profiles to separate my metamasks easily.
 
-In the output of the above command, take one of the private key accounts and [import it into your metamask.](https://metamask.zendesk.com/hc/en-us/articles/360015489331-How-to-import-an-Account)
+In the output of the above `make anvil` command in the first terminal, take one of the private key accounts and [import it into your metamask.](https://metamask.zendesk.com/hc/en-us/articles/360015489331-How-to-import-an-Account)
 
-Additionally, add your localhost with chainid 31337 to your metamask.
+Additionally, add your localhost network with **RPC URL:** *http://127.0.0.1:8545* and  **CHAINID:** *31337* to your metamask.
 
 1. Refresh the front end, input an amount in the text box, and hit `fund` button after connecting
 
 # Thank you!
 
-If you appreciated this, feel free to follow me or donate!
+If you appreciated this, feel free to follow [Patrick Collins](https://twitter.com/PatrickAlphaC) or donate!
 
 ETH/Arbitrum/Optimism/Polygon/etc Address: 0x9680201d9c93d65a3603d2088d125e955c73BD65
 
